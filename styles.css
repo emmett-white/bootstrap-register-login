@@ -90,7 +90,7 @@ body {
   }
 }
 
-@media screen and (width: 360px) {
+@media screen and (width: 360px), screen and (width: 359px) {
   .container .row .col-md-6 {
     width: 340px;
     margin: 10px;
