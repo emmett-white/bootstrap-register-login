@@ -1,0 +1,95 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg {
+  background: linear-gradient(90deg, rgba(224,31,223,1) 0%, rgba(50,171,248,1) 65%, rgba(0,212,255,1) 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* width: 70%; */
+}
+
+.col-md-6 {
+  background-color: rgba(255, 255, 255, .7);
+  border: 1px solid rgba(0, 0, 0, .6);
+  height: 350px;
+}
+
+.col-md-6 h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 14px;
+  text-transform: uppercase;
+}
+
+.container .row .col-md-6 input.form-control:focus {
+  box-shadow: 0 1px 4px rgba(172, 28, 255, .6);
+  border: 1px solid rgb(172, 28, 255);
+}
+
+.container .row .col-md-6 input[type="submit"] {
+  margin: 10px auto;
+  display: block;
+  text-transform: uppercase;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(172, 28, 255);
+  color: #fff;
+  padding: 7px 30px;
+  clip-path: polygon(100% 0, 100% 88%, 79% 100%, 0 100%, 0 0);
+  transition: .4s;
+}
+
+.container .row .col-md-6 input[type="submit"]:hover {
+  background-color: rgb(111, 8, 170);
+  padding: 7px 35px;
+}
+
+.container .row .col-md-6 p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.container .row .col-md-6 a {
+  color: #777;
+  font-size: 13px;
+}
+
+.container .row .col-md-6 a:hover {
+  color:rgb(111, 8, 170);
+}
+
+@media screen and (width: 767px) {
+  .container .row .col-md-6 {
+    height: 250px;
+  }
+
+  .container .row .col-md-6 h1 {
+    font-size: 16px;
+  }
+
+  .container .row .col-md-6 input.form-control {
+    
+  }
+}
