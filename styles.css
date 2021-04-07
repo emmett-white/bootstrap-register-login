@@ -88,8 +88,21 @@ body {
   .container .row .col-md-6 h1 {
     font-size: 16px;
   }
+}
 
-  .container .row .col-md-6 input.form-control {
-    
+@media screen and (width: 360px) {
+  .container .row .col-md-6 {
+    width: 340px;
+    margin: 10px;
+    height: 330px;
+  }
+
+  .container .row .col-md-6 h1 {
+    font-size: 16px;
+  }
+
+  .container .row .col-md-6 input[type="submit"] {
+    padding: 4px 20px;
+    font-size: 12px;
   }
 }
